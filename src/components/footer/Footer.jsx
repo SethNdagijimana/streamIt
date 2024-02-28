@@ -4,7 +4,7 @@ import "./footer.css"
 const Footer = () => {
   return (
     <>
-      <footer className="bg-red-500">
+      <footer>
         <div className="container">
           <div className="box">
             <ul className="flex">
@@ -14,7 +14,7 @@ const Footer = () => {
               <li>FAQ</li>
               <li>Watch List</li>
             </ul>
-            <p className="text-2xl text-red-500">
+            <p>
               CopyRight @{new Date().getFullYear()}. All Rights Reserved. All
               videos and shows on this platform are trademarks of, and all
               related images and content are the property of, Reas Inc.

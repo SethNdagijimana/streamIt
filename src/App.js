@@ -12,6 +12,7 @@ function App() {
     <>
       <Router>
         <Header />
+        <HomePage />
         <Routes>
           <Route exact path="/" component={HomePage} />
           <Route path="/singlepage/:id" component={SinglePage} exact />
